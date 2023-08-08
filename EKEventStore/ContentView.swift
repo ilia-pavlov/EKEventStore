@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showAddEventModal = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Button {
+                showAddEventModal.toggle()
+            } label: {
+                Text("Add Event")
+            }
+            
         }
         .padding()
+        .sheet(isPresented: $showAddEventModal){
+            AddEvent()
+        }
     }
 }
 

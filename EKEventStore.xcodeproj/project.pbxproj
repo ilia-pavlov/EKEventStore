@@ -9,59 +9,20 @@
 /* Begin PBXBuildFile section */
 		082DE41E2A82E0D100748959 /* EKEventStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE41D2A82E0D100748959 /* EKEventStoreApp.swift */; };
 		082DE4202A82E0D100748959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE41F2A82E0D100748959 /* ContentView.swift */; };
-		082DE4222A82E0D200748959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082DE4212A82E0D200748959 /* Assets.xcassets */; };
-		082DE4252A82E0D200748959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082DE4242A82E0D200748959 /* Preview Assets.xcassets */; };
-		082DE42F2A82E0D200748959 /* EKEventStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE42E2A82E0D200748959 /* EKEventStoreTests.swift */; };
-		082DE4392A82E0D200748959 /* EKEventStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE4382A82E0D200748959 /* EKEventStoreUITests.swift */; };
-		082DE43B2A82E0D200748959 /* EKEventStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE43A2A82E0D200748959 /* EKEventStoreUITestsLaunchTests.swift */; };
+		082DE44A2A82F06300748959 /* AddEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE4492A82F06300748959 /* AddEventController.swift */; };
+		082DE44C2A82F09100748959 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DE44B2A82F09100748959 /* AddEvent.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		082DE42B2A82E0D200748959 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 082DE4122A82E0D100748959 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 082DE4192A82E0D100748959;
-			remoteInfo = EKEventStore;
-		};
-		082DE4352A82E0D200748959 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 082DE4122A82E0D100748959 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 082DE4192A82E0D100748959;
-			remoteInfo = EKEventStore;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		082DE41A2A82E0D100748959 /* EKEventStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKEventStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082DE41D2A82E0D100748959 /* EKEventStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKEventStoreApp.swift; sourceTree = "<group>"; };
 		082DE41F2A82E0D100748959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		082DE4212A82E0D200748959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		082DE4242A82E0D200748959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		082DE42A2A82E0D200748959 /* EKEventStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKEventStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		082DE42E2A82E0D200748959 /* EKEventStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKEventStoreTests.swift; sourceTree = "<group>"; };
-		082DE4342A82E0D200748959 /* EKEventStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKEventStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		082DE4382A82E0D200748959 /* EKEventStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKEventStoreUITests.swift; sourceTree = "<group>"; };
-		082DE43A2A82E0D200748959 /* EKEventStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKEventStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		082DE4492A82F06300748959 /* AddEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventController.swift; sourceTree = "<group>"; };
+		082DE44B2A82F09100748959 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		082DE4172A82E0D100748959 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		082DE4272A82E0D200748959 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		082DE4312A82E0D200748959 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				082DE41C2A82E0D100748959 /* EKEventStore */,
-				082DE42D2A82E0D200748959 /* EKEventStoreTests */,
-				082DE4372A82E0D200748959 /* EKEventStoreUITests */,
 				082DE41B2A82E0D100748959 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				082DE41A2A82E0D100748959 /* EKEventStore.app */,
-				082DE42A2A82E0D200748959 /* EKEventStoreTests.xctest */,
-				082DE4342A82E0D200748959 /* EKEventStoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,35 +53,10 @@
 			children = (
 				082DE41D2A82E0D100748959 /* EKEventStoreApp.swift */,
 				082DE41F2A82E0D100748959 /* ContentView.swift */,
-				082DE4212A82E0D200748959 /* Assets.xcassets */,
-				082DE4232A82E0D200748959 /* Preview Content */,
+				082DE44B2A82F09100748959 /* AddEvent.swift */,
+				082DE4492A82F06300748959 /* AddEventController.swift */,
 			);
 			path = EKEventStore;
-			sourceTree = "<group>";
-		};
-		082DE4232A82E0D200748959 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				082DE4242A82E0D200748959 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		082DE42D2A82E0D200748959 /* EKEventStoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				082DE42E2A82E0D200748959 /* EKEventStoreTests.swift */,
-			);
-			path = EKEventStoreTests;
-			sourceTree = "<group>";
-		};
-		082DE4372A82E0D200748959 /* EKEventStoreUITests */ = {
-			isa = PBXGroup;
-			children = (
-				082DE4382A82E0D200748959 /* EKEventStoreUITests.swift */,
-				082DE43A2A82E0D200748959 /* EKEventStoreUITestsLaunchTests.swift */,
-			);
-			path = EKEventStoreUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +79,6 @@
 			productReference = 082DE41A2A82E0D100748959 /* EKEventStore.app */;
 			productType = "com.apple.product-type.application";
 		};
-		082DE4292A82E0D200748959 /* EKEventStoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 082DE4412A82E0D200748959 /* Build configuration list for PBXNativeTarget "EKEventStoreTests" */;
-			buildPhases = (
-				082DE4262A82E0D200748959 /* Sources */,
-				082DE4272A82E0D200748959 /* Frameworks */,
-				082DE4282A82E0D200748959 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				082DE42C2A82E0D200748959 /* PBXTargetDependency */,
-			);
-			name = EKEventStoreTests;
-			productName = EKEventStoreTests;
-			productReference = 082DE42A2A82E0D200748959 /* EKEventStoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		082DE4332A82E0D200748959 /* EKEventStoreUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 082DE4442A82E0D200748959 /* Build configuration list for PBXNativeTarget "EKEventStoreUITests" */;
-			buildPhases = (
-				082DE4302A82E0D200748959 /* Sources */,
-				082DE4312A82E0D200748959 /* Frameworks */,
-				082DE4322A82E0D200748959 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				082DE4362A82E0D200748959 /* PBXTargetDependency */,
-			);
-			name = EKEventStoreUITests;
-			productName = EKEventStoreUITests;
-			productReference = 082DE4342A82E0D200748959 /* EKEventStoreUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +91,6 @@
 				TargetAttributes = {
 					082DE4192A82E0D100748959 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					082DE4292A82E0D200748959 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 082DE4192A82E0D100748959;
-					};
-					082DE4332A82E0D200748959 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 082DE4192A82E0D100748959;
 					};
 				};
 			};
@@ -220,30 +108,12 @@
 			projectRoot = "";
 			targets = (
 				082DE4192A82E0D100748959 /* EKEventStore */,
-				082DE4292A82E0D200748959 /* EKEventStoreTests */,
-				082DE4332A82E0D200748959 /* EKEventStoreUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		082DE4182A82E0D100748959 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082DE4252A82E0D200748959 /* Preview Assets.xcassets in Resources */,
-				082DE4222A82E0D200748959 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		082DE4282A82E0D200748959 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		082DE4322A82E0D200748959 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,42 +127,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082DE44C2A82F09100748959 /* AddEvent.swift in Sources */,
+				082DE44A2A82F06300748959 /* AddEventController.swift in Sources */,
 				082DE4202A82E0D100748959 /* ContentView.swift in Sources */,
 				082DE41E2A82E0D100748959 /* EKEventStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		082DE4262A82E0D200748959 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082DE42F2A82E0D200748959 /* EKEventStoreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		082DE4302A82E0D200748959 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082DE4392A82E0D200748959 /* EKEventStoreUITests.swift in Sources */,
-				082DE43B2A82E0D200748959 /* EKEventStoreUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		082DE42C2A82E0D200748959 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 082DE4192A82E0D100748959 /* EKEventStore */;
-			targetProxy = 082DE42B2A82E0D200748959 /* PBXContainerItemProxy */;
-		};
-		082DE4362A82E0D200748959 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 082DE4192A82E0D100748959 /* EKEventStore */;
-			targetProxy = 082DE4352A82E0D200748959 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		082DE43C2A82E0D200748959 /* Debug */ = {
@@ -416,10 +258,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EKEventStore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 25DZPJJA4Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,6 +273,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NSCalendarsUsageDescription = "We need access to your calendar to schedule events.";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ipavlov.EKEventStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -445,10 +289,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EKEventStore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 25DZPJJA4Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,87 +304,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NSCalendarsUsageDescription = "We need access to your calendar to schedule events.";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ipavlov.EKEventStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		082DE4422A82E0D200748959 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25DZPJJA4Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ipavlov.EKEventStoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EKEventStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EKEventStore";
-			};
-			name = Debug;
-		};
-		082DE4432A82E0D200748959 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25DZPJJA4Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ipavlov.EKEventStoreTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EKEventStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EKEventStore";
-			};
-			name = Release;
-		};
-		082DE4452A82E0D200748959 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25DZPJJA4Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ipavlov.EKEventStoreUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EKEventStore;
-			};
-			name = Debug;
-		};
-		082DE4462A82E0D200748959 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25DZPJJA4Y;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ipavlov.EKEventStoreUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EKEventStore;
 			};
 			name = Release;
 		};
@@ -560,24 +330,6 @@
 			buildConfigurations = (
 				082DE43F2A82E0D200748959 /* Debug */,
 				082DE4402A82E0D200748959 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		082DE4412A82E0D200748959 /* Build configuration list for PBXNativeTarget "EKEventStoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				082DE4422A82E0D200748959 /* Debug */,
-				082DE4432A82E0D200748959 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		082DE4442A82E0D200748959 /* Build configuration list for PBXNativeTarget "EKEventStoreUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				082DE4452A82E0D200748959 /* Debug */,
-				082DE4462A82E0D200748959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
